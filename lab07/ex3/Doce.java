@@ -1,0 +1,18 @@
+public class Doce extends Produto{
+    private String name;
+    private double peso;
+    
+    public Doce(String name, double peso){
+        this.name = name;
+        this.peso = peso;
+    }
+
+    public double getWeight(){
+        return this.peso;
+    }
+
+    public void draw(){
+        String linha = "Doce '" + this.name + "' - Weight: " + this.peso;
+        System.out.println(sb.toString() + linha);
+    }
+}

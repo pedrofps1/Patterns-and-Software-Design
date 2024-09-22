@@ -1,0 +1,3 @@
+AB
+DE
+palavras aqui não interessam vai crashar antes por não ter o tamanho mínimo 3x3

@@ -1,0 +1,5 @@
+ABCL
+EFGA
+HIJK
+MNOP
+2das vai crashar na primeira palavra da lista porque tem número

@@ -1,0 +1,6 @@
+ABC
+EFG
+HIJ
+yaa
+
+vai crashar por ter linha vazia antes

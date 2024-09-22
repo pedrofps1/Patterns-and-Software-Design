@@ -1,0 +1,40 @@
+No ficheiro Calendar.java, após alguma exploração pelo código, observámos que desde a linha 932 à linha 957, existem 2 construtores protected:
+
+932       /**
+933        * Constructs a Calendar with the default time zone
+934        * and locale.
+935        * @see     TimeZone#getDefault
+936        */
+937       protected Calendar()
+938       {
+939           this(TimeZone.getDefaultRef(), Locale.getDefault(Locale.Category.FORMAT));
+940           sharedZone = true;
+941       }
+942   
+943       /**
+944        * Constructs a calendar with the specified time zone and locale.
+945        *
+946        * @param zone the time zone to use
+947        * @param aLocale the locale for the week data
+948        */
+949       protected Calendar(TimeZone zone, Locale aLocale)
+950       {
+951           fields = new int[FIELD_COUNT];
+952           isSet = new boolean[FIELD_COUNT];
+953           stamp = new int[FIELD_COUNT];
+954   
+955           this.zone = zone;
+956           setWeekCountData(aLocale);
+957       }
+
+Além disso, temos 4 métodos public static Calendar getInstance(...):
+966 public static Calendar getInstance(){...}
+981 public static Calendar getInstance(TimeZone zone){...}
+994 public static Calendar getInstance(Locale aLocale){...}
+1010 public static Calendar getInstance(TimeZone zone,Locale aLocale){...}
+
+Cada um chama o método private static Calendar createCalendar(TimeZone zone, Locale aLocale){...},
+permitindo assim criar Calendários com instâncias diferentes. 
+
+Concluindo, o padrão que esta class usa é o Factory Method, pois usa um método createCalendar
+para permitir a criação de um Calendar com a instância desejada.

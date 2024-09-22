@@ -1,0 +1,4 @@
+script ubuntu;variable
+while;patterns
+interface
+abstraction

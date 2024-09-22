@@ -1,0 +1,5 @@
+ABC
+EFG
+
+HIJ
+vai crashar por ter linha vazia no puzzle

@@ -1,0 +1,6 @@
+ABCD
+EDFG
+HIJK
+LMNO
+PQRS
+palavras aqui não interessam vai crashar antes por não ser quadrado

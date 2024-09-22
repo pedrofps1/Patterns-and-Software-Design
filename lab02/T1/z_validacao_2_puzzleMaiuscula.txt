@@ -1,0 +1,5 @@
+ABCD
+EFgH
+IJKL
+MNOP
+palavras aqui não interessam vai crashar antes na linha 2 por estarem letras minusculas no puzzle

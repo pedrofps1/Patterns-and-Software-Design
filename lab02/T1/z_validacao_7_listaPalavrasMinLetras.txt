@@ -1,0 +1,5 @@
+ABCL
+EFGA
+HIJK
+MNOP
+hi vai crashar na primeira palavra da lista porque tem tamanho dois apenas

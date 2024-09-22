@@ -1,0 +1,7 @@
+InputStream: A classe abstrata InputStream em Java é a base para todas as classes que lidam com sequências de bytes de entrada. Ela oferece métodos para ler os bytes dessa sequência. As subclasses de InputStream precisam implementar o método read() para fornecer a funcionalidade de leitura específica. Essa classe é amplamente usada como base para outras classes que lidam com diferentes tipos de sequências de entrada, como arquivos, arrays de bytes e streams de rede.
+
+AbstractSet: o padrão template esta presente nesta classe. Fornece uma estrutura básica de implementação da interface Set para reduzir a complexidade ao criar uma classe que represente um conjunto de elementos. As subclasses precisam de respeitar as exigências específicas da interface Set. No fundo,a classe funciona como um modelo que define a estrutura geral da implementação. Por outro lado, as subclasses são responsáveis por fornecer a implementação detalhada dos métodos.
+
+Reader: A classe Reader utiliza o padrão de projeto Template Method para definir uma estrutura básica de leitura de caracteres, enquanto permite que subclasses personalizem partes específicas do processo. Há a classe abstrata Reader que fornece métodos abstratos que devem ser implementados pelas subclasses para realizar a leitura dos caracteres. Permite que as subclasses personalizem a lógica de leitura.
+
+No fundo, o padrão template é usado para definir uma estrutura de algoritmo pré-definida, permitindo que as suas subclasses forneçam implementações específicas. Assim, promove a reutilização e a flexibilidade.

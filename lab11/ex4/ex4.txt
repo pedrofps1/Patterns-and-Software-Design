@@ -1,0 +1,25 @@
+1-correct - Command
+2-correct - iterator
+3-correct - factory
+4-correct - facade
+5-correct - composite
+6-correct - prototype
+7-correct - observer
+8-incorrect - flyweight
+9-correct - proxy
+10-correct - strategy
+11-correct - state
+12-correct - visitor
+13-incorrect - template
+14-correct - singleton
+15-correct - mediator
+16-incorrect - interpreter
+17-correct - chain
+18-correct - decorator
+19-correct - bridge
+20-correct - builder
+21-incorrect - memento
+22-correct - abstract factory
+23-incorrect - adapter
+
+5 incorrect, 18 correct

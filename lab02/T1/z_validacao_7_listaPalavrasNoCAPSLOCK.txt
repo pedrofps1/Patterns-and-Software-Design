@@ -1,0 +1,5 @@
+ABCL
+EFGA
+HIJK
+MNOP
+daSm MNOP crasha na "palavra MNOP"

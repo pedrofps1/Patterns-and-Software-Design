@@ -1,0 +1,5 @@
+ABCL
+LOLA
+HLJK
+MAOP
+bola wordNotFound
